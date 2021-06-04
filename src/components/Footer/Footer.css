@@ -1,0 +1,26 @@
+.footer-list{
+    border-top: solid 0.1rem red;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-list li{
+    margin-right: 5%;
+}
+
+.footer-list li a{
+    cursor: pointer;
+}
+.footer-list li a:hover{
+    opacity: 0.7;
+}
+
+.footer-list h3{
+    font-size: 15px;
+}

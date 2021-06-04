@@ -1,0 +1,22 @@
+.news-title{
+    color: crimson;
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 24px;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.learn-more{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 1rem 1.5rem 0.7rem 1.5rem;
+    transition: 0.5s;
+}
